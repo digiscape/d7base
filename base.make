@@ -17,44 +17,40 @@ projects[] = clientside_validation
 projects[] = date
 projects[] = devel
 projects[] = ds
-projects[] = email
+projects[email][version] = "1.0"
 projects[] = entity
-projects[] = extlink
+projects[extlink][version] = "1.12"
 projects[] = field_group
-
 projects[file_entity][version] = "2.0-unstable5"
-
-projects[] = filefield_sources
+projects[filefield_sources][version] = "1.4"
 projects[] = fpa
 projects[] = globalredirect
 projects[] = google_analytics_reports
-projects[] = google_analytics
+projects[google_analytics][version] = "1.2"
 projects[] = hierarchical_select
-projects[] = image_resize_filter
+projects[image_resize_filter][version] = "1.13"
 projects[] = imce
 projects[] = imce_filefield
-projects[] = imce_mkdir
+projects[imce_mkdir][version] = "1.0"
 projects[] = imce_rename
 projects[] = imce_wysiwyg
 projects[] = insert
 projects[] = libraries
 projects[] = linkit
-
-projects[media][version] ="7.x-2.0-unstable5"
-
+projects[media][version] = "2.0-unstable5"
 projects[] = menu_block
 projects[] = metatag
 projects[] = module_filter
 projects[] = mollom
 projects[] = nodeformcols
-projects[] = oauth
+projects[oauth][version] = "3.0"
 projects[] = panels
 projects[] = pathauto
 projects[] = pathologic
 projects[] = profiler_builder
 projects[] = rules
 projects[] = semanticviews
-projects[] = site_verify
+projects[site_verify][version] = "1.0"
 projects[] = spamspan
 projects[] = taxonomy_manager
 projects[] = taxonomy_menu
@@ -66,7 +62,7 @@ projects[] = webform
 projects[] = wysiwyg
 
 ; Themes
-projects[] = om
+projects[om][version] = "2.21"
 projects[] = om_admin
 projects[] = rubik
 projects[] = tao
