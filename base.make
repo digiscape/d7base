@@ -2,129 +2,129 @@
 core = 7.x
 
 api = 2
-projects[drupal]
+projects[drupal][version] = "7.x"
 
 ; Modules
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-;projects[base][download][type] = ""
-;projects[base][download][url] = ""
-;projects[base][type] = "module"
+projects[base][download][type] = ""
+projects[base][download][url] = ""
+projects[base][type] = "module"
 
-projects[views_bulk_operations]
+projects[views_bulk_operations][version] = "3.0-rc1"
 
-projects[admin]
+projects[admin][version] = "2.0-beta3"
 
-projects[admin_menu]
+projects[admin_menu][version] = "3.0-rc3"
 
-projects[backup_migrate]
+projects[backup_migrate][version] = "2.3"
 
-projects[backup_migrate_files]
+projects[backup_migrate_files][version] = "1.x-dev"
 
-projects[ctools]
+projects[ctools][version] = "1.0"
 
-projects[chart]
+projects[chart][version] = "1.1"
 
-projects[clientside_validation]
+projects[clientside_validation][version] = "1.31"
 
-projects[date]
+projects[date][version] = "2.5"
 
-projects[devel]
+projects[devel][version] = "1.2"
 
-projects[ds]
+projects[ds][version] = "1.5"
 
-projects[email]
+projects[email][version] = "1.0"
 
-projects[entity]
+projects[entity][version] = "1.0-rc3"
 
-projects[extlink]
+projects[extlink][version] = "1.12"
 
-projects[field_group]
+projects[field_group][version] = "1.1"
 
 projects[file_entity][version] = "2.0-unstable5"
 
-projects[filefield_sources]
+projects[filefield_sources][version] = "1.4"
 
-projects[fpa]
+projects[fpa][version] = "2.2"
 
-projects[globalredirect]
+projects[globalredirect][version] = "1.4"
 
-projects[google_analytics_reports]
+projects[google_analytics_reports][version] = "3.x-dev"
 
-projects[google_analytics]
+projects[google_analytics][version] = "1.2"
 
-projects[hierarchical_select]
+projects[hierarchical_select][version] = "3.0-alpha5"
 
-projects[image_resize_filter]
+projects[image_resize_filter][version] = "1.13"
 
-projects[imce]
+projects[imce][version] = "1.5"
 
 projects[imce_filefield][version] = "1.x-dev"
 
-projects[imce_mkdir]
+projects[imce_mkdir][version] = "1.0"
 
-projects[imce_rename]
+projects[imce_rename][version] = "1.2"
 
-projects[imce_wysiwyg]
+projects[imce_wysiwyg][version] = "1.0"
 
-projects[insert]
+projects[insert][version] = "1.1"
 
-projects[libraries]
+projects[libraries][version] = "1.0"
 
-projects[linkit]
+projects[linkit][version] = "2.5"
 
-projects[menu_block]
+projects[menu_block][version] = "2.3"
 
-projects[metatag]
+projects[metatag][version] = "1.0-alpha6"
 
-projects[module_filter]
+projects[module_filter][version] = "1.6"
 
-projects[mollom]
+projects[mollom][version] = "1.1"
 
-projects[nodeformcols]
+projects[nodeformcols][version] = "1.x-dev"
 
-projects[oauth]
+projects[oauth][version] = "3.0"
 
-projects[panels]
+projects[panels][version] = "3.2"
 
-projects[pathauto]
+projects[pathauto][version] = "1.1"
 
-projects[pathologic]
+projects[pathologic][version] = "1.4"
 
-projects[profiler_builder]
+projects[profiler_builder][version] = "1.0-alpha2"
 
-projects[rules]
+projects[rules][version] = "2.1"
 
-projects[semanticviews]
+projects[semanticviews][version] = "1.x-dev"
 
-projects[site_verify]
+projects[site_verify][version] = "1.0"
 
-projects[spamspan]"
+projects[spamspan][version] = "1.1-beta1"
 
-projects[taxonomy_manager]
+projects[taxonomy_manager][version] = "1.0-beta2"
 
-projects[taxonomy_menu]
+projects[taxonomy_menu][version] = "1.2"
 
-projects[token]
+projects[token][version] = "1.1"
 
-projects[total_control]
+projects[total_control][version] = "2.3-beta1"
 
-projects[views]
+projects[views][version] = "3.3"
 
-projects[views_slideshow]
+projects[views_slideshow][version] = "3.0"
 
-projects[webform]
+projects[webform][version] = "3.18"
 
-projects[wysiwyg]
+projects[wysiwyg][version] = "2.1"
 
 ; Themes
-projects[om]
+projects[om][version] = "2.21"
 
-projects[om_admin]
+projects[om_admin][version] = "2.2"
 
-projects[rubik]
+projects[rubik][version] = "4.0-beta8"
 
-projects[tao]
+projects[tao][version] = "3.0-beta4"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
