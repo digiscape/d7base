@@ -7,9 +7,9 @@ projects[drupal][version] = "7.x"
 ; Modules
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-projects[base][download][type] = ""
-projects[base][download][url] = ""
-projects[base][type] = "module"
+;projects[base][download][type] = ""
+;projects[base][download][url] = ""
+;projects[base][type] = "module"
 
 projects[views_bulk_operations][version] = "3.0-rc1"
 
@@ -83,7 +83,7 @@ projects[mollom][version] = "1.1"
 
 projects[nodeformcols][version] = "1.x-dev"
 
-projects[oauth][version] = "3.0"
+projects[oauth_common][version] = "3.0"
 
 projects[panels][version] = "3.2"
 
