@@ -83,7 +83,7 @@ projects[mollom][version] = "1.1"
 
 projects[nodeformcols][version] = "1.x-dev"
 
-projects[oauth_common][version] = "3.0"
+projects[oauth][version] = "3.0"
 
 projects[panels][version] = "3.2"
 
