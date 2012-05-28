@@ -11,116 +11,116 @@ projects[drupal][version] = "7.x"
 ;projects[base][download][url] = ""
 ;projects[base][type] = "module"
 
-projects[views_bulk_operations][version] = "3.0-rc1"
+projects[views_bulk_operations]
 
-projects[admin][version] = "2.0-beta3"
+projects[admin]
 
-projects[admin_menu][version] = "3.0-rc3"
+projects[admin_menu]
 
-projects[backup_migrate][version] = "2.3"
+projects[backup_migrate]
 
-projects[backup_migrate_files][version] = "1.x-dev"
+projects[backup_migrate_files]
 
-projects[ctools][version] = "1.0"
+projects[ctools]
 
-projects[chart][version] = "1.1"
+projects[chart]
 
-projects[clientside_validation][version] = "1.31"
+projects[clientside_validation]
 
-projects[date][version] = "2.5"
+projects[date]
 
-projects[devel][version] = "1.2"
+projects[devel]
 
-projects[ds][version] = "1.5"
+projects[ds][
 
-projects[email][version] = "1.0"
+projects[email]
 
 projects[entity][version] = "1.0-rc3"
 
-projects[extlink][version] = "1.12"
+projects[extlink]
 
-projects[field_group][version] = "1.1"
+projects[field_group]
 
 projects[file_entity][version] = "2.0-unstable5"
 
-projects[filefield_sources][version] = "1.4"
+projects[filefield_sources]
 
-projects[fpa][version] = "2.2"
+projects[fpa]
 
-projects[globalredirect][version] = "1.4"
+projects[globalredirect]
 
 projects[google_analytics_reports][version] = "3.x-dev"
 
-projects[google_analytics][version] = "1.2"
+projects[google_analytics]
 
 projects[hierarchical_select][version] = "3.0-alpha5"
 
-projects[image_resize_filter][version] = "1.13"
+projects[image_resize_filter]
 
-projects[imce][version] = "1.5"
+projects[imce]
 
 projects[imce_filefield][version] = "1.x-dev"
 
-projects[imce_mkdir][version] = "1.0"
+projects[imce_mkdir]
 
-projects[imce_rename][version] = "1.2"
+projects[imce_rename]
 
-projects[imce_wysiwyg][version] = "1.0"
+projects[imce_wysiwyg]
 
-projects[insert][version] = "1.1"
+projects[insert]
 
-projects[libraries][version] = "1.0"
+projects[libraries]
 
-projects[linkit][version] = "2.5"
+projects[linkit]
 
-projects[menu_block][version] = "2.3"
+projects[menu_block]
 
-projects[metatag][version] = "1.0-alpha6"
+projects[metatag]
 
-projects[module_filter][version] = "1.6"
+projects[module_filter]
 
-projects[mollom][version] = "1.1"
+projects[mollom]
 
 projects[nodeformcols][version] = "1.x-dev"
 
-projects[oauth][version] = "3.0"
+projects[oauth]
 
-projects[panels][version] = "3.2"
+projects[panels]
 
-projects[pathauto][version] = "1.1"
+projects[pathauto]
 
-projects[pathologic][version] = "1.4"
+projects[pathologic]
 
 projects[profiler_builder][version] = "1.0-alpha2"
 
-projects[rules][version] = "2.1"
+projects[rules]
 
 projects[semanticviews][version] = "1.x-dev"
 
-projects[site_verify][version] = "1.0"
+projects[site_verify]
 
 projects[spamspan][version] = "1.1-beta1"
 
 projects[taxonomy_manager][version] = "1.0-beta2"
 
-projects[taxonomy_menu][version] = "1.2"
+projects[taxonomy_menu]
 
-projects[token][version] = "1.1"
+projects[token]
 
-projects[total_control][version] = "2.3-beta1"
+projects[total_control]
 
-projects[views][version] = "3.3"
+projects[views]
 
-projects[views_slideshow][version] = "3.0"
+projects[views_slideshow]
 
-projects[webform][version] = "3.18"
+projects[webform]
 
-projects[wysiwyg][version] = "2.1"
+projects[wysiwyg]
 
 ; Themes
-projects[om][version] = "2.21"
+projects[om]
 
-projects[om_admin][version] = "2.2"
+projects[om_admin]
 
 projects[rubik][version] = "4.0-beta8"
 
