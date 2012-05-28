@@ -1,0 +1,256 @@
+name = Base
+description = DSP Custom base profile
+version = VERSION 1
+core = 7.x
+
+; Development
+dependencies[] = devel
+
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+dependencies[] = dblog
+dependencies[] = overlay
+dependencies[] = rdf
+
+; Webform
+dependencies[] = webform
+
+; Other
+dependencies[] = backup_migrate
+dependencies[] = backup_migrate_files
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = globalredirect
+dependencies[] = libraries
+dependencies[] = linkit
+dependencies[] = menu_block
+dependencies[] = module_filter
+dependencies[] = site_verify
+dependencies[] = token
+dependencies[] = pathauto
+
+; Clientside Validation
+dependencies[] = clientside_validation_form
+dependencies[] = clientside_validation_webform
+dependencies[] = clientside_validation
+
+; Contextual Administration
+;dependencies[] = context_admin
+;dependencies[] = context_admin_vbo
+
+; Chaos tool suite
+dependencies[] = ctools
+dependencies[] = ctools_custom_content
+dependencies[] = views_content
+dependencies[] = page_manager
+
+; Date/Time
+dependencies[] = date
+dependencies[] = date_all_day
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+
+; Administration
+dependencies[] = fpa
+dependencies[] = admin
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+
+; Display suite
+dependencies[] = ds_search
+dependencies[] = ds
+dependencies[] = ds_extras
+
+; Fields
+dependencies[] = email
+
+; Media
+dependencies[] = file_entity
+dependencies[] = imce
+dependencies[] = imce_filefield
+dependencies[] = imce_mkdir
+dependencies[] = imce_rename
+dependencies[] = filefield_sources
+dependencies[] = insert
+;dependencies[] = media
+;dependencies[] = media_youtube
+
+; Statistics
+dependencies[] = googleanalytics
+
+; Form Elements
+dependencies[] = hierarchical_select
+dependencies[] = hs_flatlist
+dependencies[] = hs_taxonomy
+dependencies[] = hs_taxonomy_views
+;dependencies[] = hs_menu
+dependencies[] = field_group
+
+; Input filters
+dependencies[] = image_resize_filter
+dependencies[] = pathologic
+
+; User interface
+dependencies[] = imce_wysiwyg
+dependencies[] = wysiwyg
+dependencies[] = extlink
+
+; SEO
+dependencies[] = metatag
+
+; Rules
+dependencies[] = rules_admin
+dependencies[] = rules_scheduler
+dependencies[] = rules
+
+; Views
+dependencies[] = semanticviews
+dependencies[] = views_bulk_operations
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+dependencies[] = views_ui
+dependencies[] = views
+
+; Taxonomy
+dependencies[] = taxonomy_manager
+dependencies[] = taxonomy_menu
+
+; Node form columns
+dependencies[] = nodeformcols
+
+; Analytics
+dependencies[] = google_analytics_reports
+dependencies[] = chart
+dependencies[] = oauth
+
+; Dashboard
+dependencies[] = total_control
+
+; Panels
+dependencies[] = panels
+
+; Spam
+dependencies[] = mollom
+dependencies[] = spamspan
+
+; Profile
+dependencies[] = profiler_builder
+
+; Variables
+
+variables[admin_menu_display] = plid
+variables[admin_menu_margin_top] = 1
+variables[admin_menu_position_fixed] = 1
+variables[admin_theme] = rubik
+variables[admin_toolbar][layout] = vertical
+variables[admin_toolbar][position] = nw
+variables[admin_toolbar][behavior] = df
+variables[admin_toolbar][blocks][admin-create] = -1
+variables[admin_toolbar][blocks][admin-theme] = 1
+variables[admin_toolbar][blocks][admin-account] = -1
+variables[admin_toolbar][blocks][admin-menu] = 1
+
+variables[cache_lifetime] = 0
+variables[clean_url] = 1
+variables[clientside_validation_use_minified] = 1
+variables[clientside_validation_validate_all] = 1
+variables[clientside_validation_validate_tabs] = 1
+variables[comment_webform] = 1
+
+
+variables[css_js_query_string] = m4cyu2
+
+variables[date_default_timezone] = Australia/Melbourne
+variables[default_nodes_main] = 10
+
+variables[devel_api_url] = api.drupal.org
+variables[devel_error_handler] = 1
+variables[devel_execution] = 5
+variables[devel_krumo_skin] = default
+variables[devel_query_sort] = 0
+variables[dev_mem] = 1
+variables[dev_timer] = 1
+
+variables[extlink_alert_text] = This link will take you to an external web site. We are not responsible for their content.
+variables[extlink_class] = ext
+variables[extlink_mailto_class] = mailto
+variables[extlink_subdomains] = 1
+variables[extlink_target] = _blank
+
+variables[file_default_scheme] = public
+;variables[file_private_path] = sites/default/private
+variables[file_public_path] = sites/default/files
+variables[file_temporary_path] = /tmp
+variables[filter_fallback_format] = plain_text
+variables[image_toolkit] = gd
+
+variables[maintenance_mode_message] = Our website is currently under maintenance. We should be back shortly. Thank you for your patience.
+
+variables[node_admin_theme] = 1
+variables[node_options_page][0] = status
+
+variables[page_cache_maximum_age] = 0
+variables[pathauto_blog_pattern] = blogs/[user:name]
+variables[pathauto_forum_pattern] = [term:vocabulary]/[term:name]
+variables[pathauto_node_pattern] = [node:title]
+variables[pathauto_node_page_pattern] = [node:menu-link:parent:root]/[node:menu-link:parent]/[node:title]
+variables[pathauto_punctuation_hyphen] = 1
+variables[pathauto_taxonomy_term_pattern] = [term:vocabulary]/[term:name]
+variables[pathauto_user_pattern] = users/[user:name]
+
+variables[site_default_country] = AU
+variables[site_frontpage] = node
+variables[site_mail] = jason@digiscape.com.au
+variables[site_name] = d7base
+variables[statistics_count_content_views] = 1
+variables[statistics_enable_access_log] = 1
+variables[statistics_flush_accesslog_timer] = 9676800
+variables[taxonomy_override_selector] = 1
+
+variables[theme_default] = om_html5_subtheme
+
+variables[update_check_disabled] = 1
+variables[update_check_frequency] = 1
+variables[update_notification_threshold] = all
+variables[update_notify_emails][0] = jason@digiscape.com.au
+variables[user_admin_role] = 3
+
+variables[user_register] = 2
+variables[views_exposed_filter_any_label] = new_any
+variables[views_ui_always_live_preview] = 1
+variables[views_ui_show_advanced_column] = 1
+variables[views_ui_show_advanced_help_warning] = 1
+variables[views_ui_show_listing_filters] = 1
+variables[views_ui_show_master_display] = 1
+variables[views_ui_show_preview_information] = 1
+variables[views_ui_show_sql_query_where] = above
+variables[webform_csv_delimiter] = ,
+variables[webform_node_types][0] = webform
+
+files[] = base.profile
+files[] = base.install
