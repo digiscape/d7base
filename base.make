@@ -59,7 +59,9 @@ projects[] = total_control
 projects[] = views
 projects[] = views_slideshow
 projects[] = webform
-projects[] = wysiwyg
+
+projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][patch][746524] = "http://drupal.org/files/wysiwyg-746524-184.patch"
 
 ; Themes
 projects[om][version] = "2.21"
