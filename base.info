@@ -232,7 +232,7 @@ variables[statistics_enable_access_log] = 1
 variables[statistics_flush_accesslog_timer] = 9676800
 variables[taxonomy_override_selector] = 1
 
-variables[theme_default] = om_html5_subtheme
+variables[theme_default] = omega
 
 variables[update_check_disabled] = 1
 variables[update_check_frequency] = 1
