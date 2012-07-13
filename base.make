@@ -66,7 +66,7 @@ projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][patch][746524] = "http://drupal.org/files/wysiwyg-746524-184.patch"
 
 ; Themes
-project[] = omega
+projects[] = omega
 ;projects[om][version] = "2.21"
 ;projects[] = om_admin
 projects[] = rubik
