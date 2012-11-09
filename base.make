@@ -73,10 +73,10 @@ projects[] = rubik
 projects[] = tao
 
 ; Libraries
-libraries[jquery.cycle][download][type] = "get"
-libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
-libraries[jquery.cycle][directory_name] = "jquery.cycle"
-libraries[jquery.cycle][type] = "library"
+;libraries[jquery.cycle][download][type] = "get"
+;libraries[jquery.cycle][download][url] = ;"http://malsup.github.com/jquery.cycle.all.js"
+;libraries[jquery.cycle][directory_name] = "jquery.cycle"
+;libraries[jquery.cycle][type] = "library"
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz"
