@@ -62,8 +62,8 @@ projects[] = webform
 projects[] = omega_tools
 
 ; Patches
-projects[wysiwyg][version] = "2.x-dev"
-projects[wysiwyg][patch][746524] = "http://drupal.org/files/wysiwyg-746524-184.patch"
+;projects[wysiwyg][version] = "2.x-dev"
+;projects[wysiwyg][patch][746524] = "http://drupal.org/files/wysiwyg-746524-184.patch"
 
 ; Themes
 projects[] = omega
