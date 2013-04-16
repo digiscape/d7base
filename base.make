@@ -61,6 +61,8 @@ projects[] = views_slideshow
 projects[] = webform
 projects[] = omega_tools
 
+projects[] = wysiwyg
+
 ; Patches
 ;projects[wysiwyg][version] = "2.x-dev"
 ;projects[wysiwyg][patch][746524] = "http://drupal.org/files/wysiwyg-746524-184.patch"
